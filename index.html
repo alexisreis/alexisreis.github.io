@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Alexis Reis - Portfolio</title>
+    </head>
+    <body class="page-container">
+        <nav>
+            <div id="title">
+			  <img id="nav-pic" src="assets/alexis.jpg" alt="Alexis Reis"/>
+			<a id="title" href="#">ALEXIS REIS</a>
+		  </div>
+            <div>
+                <a href="#profil" class="links">Profil</a>
+                <a href="#projets" class="links">Projets</a>
+                <a href="#formation" class="links">Formation</a>
+                <a href="#competences" class="links">Compétences</a>
+                <a href="#contact" class="links">Contact</a>
+            </div>
+            
+        </nav>
+
+        <div class="main-container">
+            <div id="first-view">
+                <div id="card">
+				<img
+					id="photo"
+					src="assets/alexis.jpg"
+					alt="Alexis Reis"
+			 	/>
+		  
+				<div>
+					<h1 id="prenom">ALEXIS</h1>
+					<h2 id="nom">REIS</h2>
+				</div>
+			 
+			 </div>
+                    
+
+                    <h3 id="mini-bio">
+                        étudiant <span>ingénieur informatique</span> <br/>en 3ième année 
+                        à <span>l'INSA de Lyon</span>
+                    </h3>
+                    <img
+                        id="logo-insa"
+                        src="assets/insa.png"
+                        alt="Logo INSA"
+                    />
+
+            </div>
+		  <div class="view dark" id="profil">
+			<h2 class="view-title">Mon profil</h2>
+			<div class="profile-div">
+				<div class="profile-item" >
+					<h3>INSA de LYON (3A)</h3>
+					<img style="filter: invert(100%); height: 5em;" src="assets/rhino.png" alt="Mascotte INSA LYON" />
+					<h4>2 ans de prépa intégrée
+					<br/>-> informatique</h4>
+				</div>
+				<div class="item-border" ></div>
+
+				<div class="profile-item" >
+					<h3>Passionné tech</h3>
+					<img style="filter: invert(100%); height: 5em;" src="assets/tech.png" alt="Nouvelles technologies" />
+					<h4>suis de près les avancées technologiques</h4>
+				</div>
+				<div class="item-border" id="border2"></div>
+				<div class="profile-item">
+					<h3>Sportif</h3>
+					<img style="filter: invert(100%); height: 5em;" src="assets/handball.png" alt="handball" />
+					<h4>handball <br/>course à pied & vélo</h4>
+				</div>
+				<div class="item-border"></div>
+				<div class="profile-item">
+					<h3>Cinéma</h3>
+					<img style="filter: invert(100%); height: 5em;" src="assets/cinema.png" alt="Cinema" />
+					<h4>section cinéma étude <br/>association "La Mouette"</h4>
+				</div>
+			</div>
+			
+		  </div>
+		  <div class="view light" id="projets">
+			<h2 class="view-title">Mes Projets</h2>
+			<ul>
+				<li>
+					<div class="list-head">
+						<h3 class="list-title">Application Cooloc (web-app)</h3>
+						<h3 class="list-date">2021-2022</h3>
+					</div>
+					<p>
+						Développée pendant mon temps libre cette web-app codée en ReactJS permet à ma collocation de rentrer dans une base de données toutes les dépenses sur un mois ainsi que son nombre de  repas pris de manière à équilibrer équitablement les soldes de chacun lors des remboursements. 
+					</p>
+					<a href="assets/COOLOC.jpg"><img src="assets/cooloc.jpg" alt="Cooloc - page soldes" title="Cliquez pour agrandir" style="max-width:100%;"/></a>
+					<a href="assets/cooloc_dep.jpg"><img src="assets/cooloc_dep.jpg" alt="Cooloc - page dépenses" title="Cliquez pour agrandir" style="max-width:100%;"/></a>
+				</li>
+				<li>	<div class="list-head">
+					<h3 class="list-title">Prototype de voiture autonome</h3>
+					<h3 class="list-date">2021</h3>
+				</div>
+					<p>Conception d'une voiture autonome miniature à partir d'une voiture télécommandée. Le but était d'exploiter les données de capteurs de types différents afin d'obtenir un prototype fonctionnel dans un environnement controlé.</p>
+					<a href="assets/vroum.jpg"><img src="assets/vroum.jpg" alt="Voiture autonome" title="Cliquez pour agrandir" style="max-width:100%;"/></a>
+					<a href="assets/vroum_app.jpg"><img src="assets/vroum_app.jpg" alt="Voiture autonome application java" title="Cliquez pour agrandir" style="max-width:100%;"/></a>
+				</li>
+				<li>	<div class="list-head">
+					<h3 class="list-title">Jeu d'échecs</h3>
+					<h3 class="list-date">2021</h3>
+				</div>
+					<p>Dans le cadre d'un projet de fin d'année, nous avions pour objectifs avec 4 camarades de développer une interface homme machine permettant de jouer à deux une partie d'échecs sur ordinateurs.</p>
+					<a href="assets/echecs.jpg"><img src="assets/echecs.jpg" alt="Jeu d'échecs" title="Cliquez pour agrandir" style="max-width:100%;"/></a>
+				</li>
+				<li> 	
+					<div class="list-head">
+					<h3 class="list-title">Kit de Porte Intelligente (KPI)</h3>
+					<h3 class="list-date">2019</h3>
+				</div>
+					<p>Afin de mettre à profit mes connaissances en ingénierie en terminale, nous avons réalisé avec 3 de mes camarades un prototype fonctionnel que nous avons nommé Kit de Porte Intelligente. Le but de notre projet était de rendre toute porte classique totalement automatisée et sécurisée afin de faciliter l’accès aux personnes à mobilité réduite.</p>
+					<a href="assets/KPI.jpg"><img src="assets/KPI.jpg" alt="KPI - Kit de Porte Intelligente" title="Cliquez pour agrandir" style="max-width:100%;"/></a>
+				</li>
+				
+			</ul>
+		  </div>
+		  <div class="view dark" id="formation">
+			<h2 class="view-title">Ma formation</h2>
+			<ul>
+				<li>
+					<div class="list-head">
+						<h3 class="list-title" style="color: var(--dark-text)">INSA Lyon</h3>
+						<h3 class="list-date" style="color: red">2019 - </h3>
+					</div>
+					<p>Formation initiale aux métiers de l’ingénieur : deux ans de prépa intégrée. <br/>Première année au <span>département informatique</span> en cours (3IF).</p>
+				</li>
+				<li><div class="list-head">
+					<h3 class="list-title" style="color: var(--dark-text)">Lycée Bonaparte - Autun</h3>
+					<h3 class="list-date" style="color: red">2016-2019
+					</h3>
+				</div>
+			<p>
+				Obtention du diplôme du <span>baccalauréat scientifique</span> avec l’option sciences de l’ingénieur (SI) et la spécialité mathématiques. <br/> Mention très bien.
+			</p></li>
+			</ul>
+		  </div>
+		  <div class="view light" id="competences">
+			<h2 class="view-title">Mes compétences</h2>
+			<h3>Langues</h3>
+			<ul id="skill-list">
+				
+				<li class="competence">
+					<img src="assets/skills/english.jpg" alt="English" class="competence-logo">
+					<h3 class="competence-title">Anglais <br/> (avancé)</h3>
+				</li>
+				<li class="competence">
+					<img src="assets/skills/spanish.jpg" alt="Spanish" class="competence-logo">
+					<h3 class="competence-title">Espagnol <br/> (bases)</h3>
+				</li>
+				<li class="competence">
+					<img src="assets/skills/japan.jpg" alt="Japanese" class="competence-logo">
+					<h3 class="competence-title">Japonais <br/> (débutant)</h3>
+				</li>
+			</ul>
+				<h3>Langages de programmation</h3>
+			<ul id="skill-list">
+				<li class="competence">
+					<img src="assets/skills/java.png" alt="Java" class="competence-logo">
+					<h3 class="competence-title">Java</h3>
+				</li>
+				<li class="competence">
+					<img src="assets/skills/cplusplus.png" alt="C / C++" class="competence-logo">
+					<h3 class="competence-title">C / C++</h3>
+				</li>
+				<li class="competence">
+					<img src="assets/skills/react.png" alt="React" class="competence-logo">
+					<h3 class="competence-title">React</h3>
+				</li>
+				<li class="competence">
+					<img src="assets/skills/html.png" alt="HTML" class="competence-logo">
+					<h3 class="competence-title">HTML</h3>
+				</li>
+				<li class="competence">
+					<img src="assets/skills/css.png" alt="CSS" class="competence-logo">
+					<h3 class="competence-title">CSS</h3>
+				</li>
+				<li class="competence">
+					<img src="assets/skills/js.jpg" alt="JS" class="competence-logo">
+					<h3 class="competence-title">JS</h3>
+				</li>
+
+				<li class="competence">
+					<img src="assets/skills/arduino.png" alt="C / C++" class="competence-logo">
+					<h3 class="competence-title">Arduino</h3>
+				</li>
+				<li class="competence">
+					<img src="assets/skills/python.png" alt="Python" class="competence-logo">
+					<h3 class="competence-title">Python</h3>
+				</li>
+			</ul>
+				<h3>OS / Suites</h3>
+			<ul id="skill-list">
+				<li class="competence">
+					<img src="assets/skills/windows.png" alt="Windows" class="competence-logo">
+					<h3 class="competence-title">Windows</h3>
+				</li>
+				<li class="competence">
+					<img src="assets/skills/ubuntu.png" alt="Linux" class="competence-logo">
+					<h3 class="competence-title">Linux</h3>
+				</li>
+				<li class="competence">
+					<img src="assets/skills/office.png" alt="Suite Office" class="competence-logo">
+					<h3 class="competence-title">Suite Office</h3>
+				</li>
+				<li class="competence">
+					<img src="assets/skills/adobe.png" alt="Suite Adobe" class="competence-logo">
+					<h3 class="competence-title">Suite Adobe</h3>
+				</li>
+			</ul>
+		<ul id="skill-list">
+				<li class="competence">
+					<img src="assets/skills/voiture.png" alt="Permis B" class="competence-logo">
+					<h3 class="competence-title">Permis B</h3>
+				</li>
+				
+			</ul>
+		  </div>
+		  <div class="view dark" id="contact">
+			<h2 class="view-title">Me contacter</h2>
+			<div class="contact-div">
+				<img src="assets/mail.svg" alt="mail" style="filter: invert(100%); height:1em;">
+				<a href="mailto:alexisreis@outlook.fr">alexisreis@outlook.fr</a>
+			</div>
+			<div class="contact-div">
+				<img src="assets/linkedin.svg" alt="linkedin" style="filter: invert(100%); height: 1em;">
+				<a href="https://www.linkedin.com/in/alexis-reis-6aa315216/">LinkedIn</a>
+			</div>
+		</div>
+
+
+
+        <footer>
+            <h4>2022 - Alexis Reis</h4>
+            <h4>Tous droits réservés</h4>
+		  <a href="https://www.flaticon.com/free-icons/" title="icons">icons created by ultimatearm - Flaticon</a>
+        </footer>
+    </body>
+</html>
