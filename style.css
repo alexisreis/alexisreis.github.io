@@ -10,12 +10,7 @@
     --hover-button: rgb(156, 89, 0);
     --active-text: rgb(255, 0, 0);
     --background: rgb(235, 235, 235);
-    --gradient: linear-gradient(
-        180deg,
-        rgba(37, 37, 37, 1) 0%,
-        rgb(143, 143, 143) 35%,
-        rgba(241, 241, 241, 1) 100%
-    );
+    --gradient: var(--light-back);
 }
 
 html {
@@ -162,7 +157,6 @@ nav div {
     box-shadow: 1px 3px 18px 4px rgba(0, 0, 0, 0.55);
     -webkit-box-shadow: 1px 3px 18px 4px rgba(0, 0, 0, 0.55);
     -moz-box-shadow: 1px 3px 18px 4px rgba(0, 0, 0, 0.55);
-    animation: extend 3s linear infinite;
 }
 
 #mini-bio {
@@ -173,21 +167,6 @@ nav div {
 
 #logo-insa {
     width: 15em;
-    animation: extend 3s linear infinite;
-}
-
-@keyframes extend {
-    0% {
-        transform: scale(100%);
-    }
-
-    50% {
-        transform: scale(120%);
-    }
-
-    100% {
-        transform: scale(100%);
-    }
 }
 
 /* VIEWS */
@@ -383,6 +362,7 @@ footer h4:active {
 .dark a {
     color: var(--light-text);
 }
+
 @media screen and (max-width: 950px) {
     nav .links {
         display: none;
@@ -390,5 +370,30 @@ footer h4:active {
 
     #border2 {
         display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    *{
+        font-size: 0.95em;
+    }
+
+    #photo {
+        width: 10em;
+        height: 10em;
+        margin-right: 0px;
+    }
+
+    #card {
+        flex-direction: column;
+    }
+
+    #card h1,
+    #card h2 {
+        text-align: center;
+    }
+
+    #logo-insa {
+        width: 10em;
     }
 }
