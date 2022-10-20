@@ -396,4 +396,7 @@ footer h4:active {
     #logo-insa {
         width: 10em;
     }
+    #title {
+        width: 75%;
+    }
 }
